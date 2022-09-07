@@ -1,7 +1,12 @@
 import React from "react";
+
 function Home() {
   return (
-<img src={require("./images/dv.jpg")} id="dv" alt=""></img>
+    <div className="col-sm-12 text-center">
+    <h1 className="font-weight-light">
+      Home
+    </h1>
+  </div>
   );
 }
 

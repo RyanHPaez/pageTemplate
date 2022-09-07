@@ -6,20 +6,22 @@ function Navigation() {
     <div className="navigation">
       
           
-            <h1 className="NavName font-weight-light">New App</h1>
+            <h1 className="NavName font-weight-light">starter template</h1>
             <div>
               <ul className="navbar-nav ml-auto">
-                <li className="nav-item-home">
+                <li className="nav-item-home text-center">
                   <NavLink className="nav-link" to="/Home">
-                    <i className="fas fa-home" style={{ fontSize: "18px" }}></i>
-                    <span className="sr-only">(Home)</span>
+                    <i className="fas fa-home" style={{ fontSize: "18px" }}>Home</i>
+                    
                   </NavLink>
                 </li>
 
-                <li className="nav-item-home">
-                  <NavLink className="nav-link" to="/Page2">
-                    <i className="fas fa-home" style={{ fontSize: "18px" }}></i>
-                    <span className="sr-only">(Page2)</span>
+                <li className="nav-item-page2 text-center">
+                  <NavLink className="nav-link" to="/Page2">Page2
+                    <i
+                      className="fas fa-hiking"
+                      style={{ fontSize: "18px" }}
+                    ></i>
                   </NavLink>
                 </li>
               </ul>
