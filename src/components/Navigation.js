@@ -17,11 +17,11 @@ function Navigation() {
                 </li>
 
                 <li className="nav-item-page2 text-center">
-                  <NavLink className="nav-link" to="/Page2">Page2
+                  <NavLink className="nav-link" to="/Page2">
                     <i
                       className="fas fa-hiking"
                       style={{ fontSize: "18px" }}
-                    ></i>
+                    >Page2</i>
                   </NavLink>
                 </li>
               </ul>
